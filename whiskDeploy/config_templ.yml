@@ -1,0 +1,7 @@
+cloudant:
+  username: XXX
+  password: XXX
+whisk:
+  namespace: XXX
+  api_key: XXX
+  apihost: openwhisk.ng.bluemix.net

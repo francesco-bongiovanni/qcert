@@ -12,3 +12,5 @@ bin/*.jar
 bin/services/*.jar
 /.project
 .DS_Store
+node_modules
+_build
