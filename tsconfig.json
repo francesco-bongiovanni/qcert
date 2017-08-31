@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./_build",
+        "rootDir": ".",
+        "module": "commonjs",
+        "target": "es6",
+        "sourceMap": true,
+        "moduleResolution": "node"
+    },
+    "include": [
+	"whiskDeploy/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "modules"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "qcert",
+  "description": "Q*cert Verified Query Compiler",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/querycert/qcert.git"
+  },
+  "devDependencies": {
+    "@types/openwhisk": "git+https://cd5c89e856c393a77f2bbfcec9afa114c9a7d8e8@github.ibm.com:Conversational/wsk-typescript.git",
+    "@types/watson-developer-cloud": "git+https://cd5c89e856c393a77f2bbfcec9afa114c9a7d8e8@github.ibm.com:Conversational/wcs-typescript.git",
+    "openwhisk-deploy": "git+https://cd5c89e856c393a77f2bbfcec9afa114c9a7d8e8@github.ibm.com:Guillaume-Baudart/openwhisk-deploy.git",
+    "wcs-whisk": "git+https://cd5c89e856c393a77f2bbfcec9afa114c9a7d8e8@github.ibm.com:botshield/wcs-whisk.git",
+    "typescript": "^2.4.2",
+    "cloudant": "^1.8.0",
+    "@types/node": "^8.0.20"
+  },
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "expand-home-dir": "0.0.3",
+    "js-yaml": "^3.9.1",
+    "json-colorizer": "1.1.0",
+    "openwhisk": "3.6.0",
+    "prompt-sync": "^4.1.5",
+    "properties-parser": "0.3.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

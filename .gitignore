@@ -12,4 +12,5 @@ bin/lib/*.jar
 *.v.d
 *.glob
 *.aux
-.DS_Store
+node_modules
+_build
