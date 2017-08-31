@@ -12,3 +12,5 @@ bin/services/*.jar
 *.glob
 *.aux
 .DS_Store
+node_modules
+_build
